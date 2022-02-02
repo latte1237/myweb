@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Mahaphan Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/* Style the header */
+header {
+  background-color: mediumSeaGreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+ 
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 100%; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+ 
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+ 
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: 100%; /* only for demonstration, should be removed */
+}
+ 
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+/* Style the footer */
+footer {
+  background-color:MediumSeaGreen;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+ 
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+    <header>
+        Mahaphan Portfolio
+    </header>
+    <section>
+        <nav>
+            <a href="ตารางเรียน.html"> ตารางเรียน</a><br>
+            <a href="index1.html" target="_blank">My Favori9te pet</a>
+        </nav>
+        <article align ="center">
+            <img style="border-radius: 1000px;" src="images/photo.png" width="30%" hight="30%">
+            <h2>ด.ช.สาธิต พวงมาลี เลขที่12 ห้อง1/3</h2>
+            <h3>วิชาที่ชอบ</h3>
+            <h3>วิชาวิทยาศาศตร์</h3>
+            <h5>วิชาคณิตศาสตร์</h5>
+            <h4>ข้อมูลติดต่อ</h4>
+            <h4>มือถือ:095-315-3820<h4>
+            <h4>อีเมล์:satit.poungmalee@gmail.com</h4>
+            <a href="https://www.google.com">GOOGLE</a><br>
+            <a href="http://coding.pccpl.ac.th">CODING</a>
+        </article>
+    </section>
+    <footer>
+        ที่อยู่ 519/1 ถ.ทิพย์เสนา ซ.2 อ.ในเมือง จ.พิษณุโลก
+    </footer>
+ 
+</body>
+</html>

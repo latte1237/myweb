@@ -1,0 +1,27 @@
+p {
+    text-align: center;
+    color: rgba(255, 196, 0, 0.795);
+}
+
+h1 {
+    text-align: right;
+    color: rgb(52, 8, 207);
+}
+table,
+td,
+tr {
+    border: 1px solid rgba(0, 17, 255, 0.692);
+    border-collapse: collapse;
+    width: 50%;
+}
+#fname{
+    border: 1px solid rgb(81, 255, 0);
+    border-collapse: collapse;
+    /*width: 100%;*/
+}
+.tbl{
+    color: rgb(0, 0, 0);
+}
+*{
+    color: rgb(0, 0, 0);
+}
